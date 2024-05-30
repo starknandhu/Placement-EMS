@@ -1,0 +1,83 @@
+body, h2, form, input, button {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: #e0e0e0;
+     font-family: Arial, sans-serif;
+ }
+ 
+ .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding: 20px;
+ }
+ 
+ .neumorphic-form {
+     background: #e0e0e0;
+     border-radius: 20px;
+     box-shadow: 20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+     padding: 30px;
+     width: 300px;
+ }
+ 
+ .neumorphic-form h2 {
+     text-align: center;
+     margin-bottom: 20px;
+     color: #333;
+ }
+ 
+ .form-group {
+     margin-bottom: 20px;
+ }
+ 
+ label {
+     display: block;
+     margin-bottom: 5px;
+     color: #333;
+ }
+ 
+ input {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border-radius: 10px;
+     background: #e0e0e0;
+     box-shadow: inset 5px 5px 10px #bebebe,
+                 inset -5px -5px 10px #ffffff;
+     font-size: 1em;
+     color: #333;
+ }
+ 
+ input:focus {
+     outline: none;
+ }
+ 
+ button {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border-radius: 10px;
+     background: #e0e0e0;
+     box-shadow: 5px 5px 10px #bebebe,
+                 -5px -5px 10px #ffffff;
+     font-size: 1em;
+     color: #333;
+     cursor: pointer;
+     transition: all 0.2s ease-in-out;
+ }
+ 
+ button:hover {
+     box-shadow: inset 5px 5px 10px #bebebe,
+                 inset -5px -5px 10px #ffffff;
+ }
+ 
